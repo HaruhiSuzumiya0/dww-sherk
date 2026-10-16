@@ -2,7 +2,8 @@
 <html>
     <head>
         <meta charset="utf-8">
-        <title>"Shrek Website"</title>
+        <title>Shrek Website</title>
+        <link href="style.css" rel="stylesheet">
     </head>
     <body>
         <header>
@@ -12,23 +13,36 @@
                 width="160"
                 height="90"
                 >
-            <h1>Synopsis</h1>
-            <h1>Movies</h1>
-            <h1>Characters</h1>
+            <a 
+                href="#synopsisSection" 
+                id="headerMenu"
+            >Synopsis</a>
+            <a 
+                href="#moviesSection"           
+                id="headerMenu"
+            >Movies</a>
+            <a 
+                href="#charactersSection"           
+                id="headerMenu"
+            >Characters</a>
         </header>
+        <h1 id="textOnImg">Shrek</h1>
         <img
             src="shared-assets/shrek-hero-image.jpg"
             alt="Shrek"
             width="1280"
             height="720"
         >
-        <h1>Synopsis</h1>
+        <div id="synopsisSection">
+        <h1 id="sectionTitle">Synopsis</h1>
         <p>Shrek is an asocial ogre who loves the solitude of his swamp and enjoys fending off mobs and intruders. One day, his life is interrupted after he inadvertently saves a talkative Donkey from some soldiers, prompting Donkey to forcibly stay with him. Donkey is one of many fairy tale creatures that are being exiled by the dwarfish Lord Farquaad of Duloc to beautify his land. However, the creatures inadvertently end up in the swamp. Angered by the intrusion, Shrek resolves to visit Farquaad and demand that he move the creatures elsewhere, reluctantly allowing Donkey to accompany him as he is the only one who knows where Duloc is. </p>
         <p>Meanwhile, Farquaad asks a magic mirror if he has the most perfect kingdom; the mirror tells him he is not a king and would need to marry a princess in order to become one. Presented with three options, Farquaad chooses Princess Fiona, who is imprisoned in a castle guarded by a Dragon. Unwilling to rescue Fiona himself, he organizes a tournament, the winner receiving the "privilege" of rescuing her on his behalf. When Farquaad sees Shrek and Donkey in his castle, he announces that whoever kills Shrek will win the tournament; however, Shrek and Donkey defeat Farquaad's knights with relative ease. Amused, Farquaad proclaims Shrek his champion, and agrees to relocate the fairy tale creatures in exchange for Shrek rescuing Fiona. Shrek and Donkey travel to the castle and Dragon attacks them.</p>
         <button 
-            class=""
+            id="readMore"
             type="button"
         >-> Read More</button>
+        </div>
+        <div id="moviesSection">
         <img
             src="shared-assets/shrek-poster-1.jpg"
             alt="Shrek 1"
@@ -38,10 +52,12 @@
         <p>Shrek 1</p>
         <p>2001</p>
         <p>1h29</p>
-        <button 
-            class=""
-            type="button"
-        >TV See Trailer</button>
+        <a href="https://www.youtube.com/watch?v=CwXOrWvPBPk&pp=ygUPc2hyZWsgMSB0cmFpbGVy">
+            <button 
+                id="seeTrailer"
+                type="button"
+            >TV See Trailer</button>
+        </a>
         <img
             src="shared-assets/shrek-2-poster-1.jpg"
             alt="Shrek 2"
@@ -51,10 +67,12 @@
         <p>Shrek 2</p>
         <p>2004</p>
         <p>1h30</p>
-        <button 
-            class=""
-            type="button"
-        >TV See Trailer</button>
+        <a href="https://www.youtube.com/watch?v=xBgSfhp5Fxo&pp=ygUPc2hyZWsgMiB0cmFpbGVy">
+            <button 
+                id="seeTrailer"
+                type="button"
+            >TV See Trailer</button>
+        </a>
         <img
             src="shared-assets/shrek-the-third-poster-1.jpg"
             alt="Shrek 3"
@@ -64,17 +82,22 @@
         <p>Shrek 3</p>
         <p>2007</p>
         <p>1h33</p>
-        <button 
-            class=""
-            type="button"
-        >TV See Trailer</button>
-        <h1>Characters</h1>
+        <a href="https://www.youtube.com/watch?v=_MoIr7811Bs&pp=ygUPc2hyZWsgMyB0cmFpbGVy">
+            <button 
+                id="seeTrailer"
+                type="button"
+            >TV See Trailer</button>
+        </a>
+        </div>
+        <div id="charactersSection">
+            <h1 id="sectionTitle">Characters</h1>        
         <ul>
-            <p>Shrek</p>
-            <p>Donkey</p>
-            <p>Princess Fiona</p>
-            <p>Puss in Boots</p>
-            <p>Kitty Softpaws</p>
+            <li>Shrek</li>
+            <li>Donkey</li>
+            <li>Princess Fiona</li>
+            <li>Puss in Boots</li>
+            <li>Kitty Softpaws</li>
         </ul>
+        </div>
     </body>
 </html>

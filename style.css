@@ -1,0 +1,66 @@
+body{
+    background-color: #F9FCF3;
+}
+
+#synopsisSection{
+    background-color: #C9E39A;
+}
+
+#charactersSection{
+    background-color: #C9E39A;
+}
+
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: regular;
+    font-size: 16px;
+    line-height: 20px; 
+}
+
+li{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: regular;
+    font-size: 16px;
+    line-height: 20px; 
+}
+
+#sectionTitle{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: regular;
+    font-size: 24px;
+}
+
+#headerMenu{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: regular;
+    font-size: 16px;
+}
+
+#headerMenu:link{
+    color: black;
+    outline: none;
+    text-decoration: none;
+}
+
+#headerMenu:active{
+    color: #C9E39A;
+    text-decoration: none;
+}
+
+#textOnImg{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: regular;
+    font-size: 200px;
+}
+
+
+
+
+
+.black-bg{
+    background-color: black;
+    color: aliceblue;
+
+    padding: 0px 32px;
+    margin: 64px;
+}
